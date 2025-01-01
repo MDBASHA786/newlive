@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import 'aos/dist/aos.css';
 import Logo from "../assets/imgs/iconlogo.jpg";
 
 import "../assets/fonts/font.css";
@@ -88,7 +88,7 @@ function Home() {
       <Services />
 
       {/* Sponsers  */}
-      <h1 className="count-h">SPONSORS</h1>
+      <h1 className="count-h"data-aos="fade-left">SPONSORS</h1>
       <div className="grid-sponsers">
         {SPONSERS.map((sponser, index) => (
           <div className="card" key={index}>
