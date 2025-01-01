@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import 'aos/dist/aos.css';
+
 import Logo from "../assets/imgs/iconlogo.jpg";
 
 import "../assets/fonts/font.css";
