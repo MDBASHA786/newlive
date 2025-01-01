@@ -7,11 +7,11 @@ function Footer() {
     <div className='footer'>
         <div className="d-flex">
             <div className="copy-rights">
-                <h4>COPYRIGHT © PETRONA {year}</h4>
-                <p>Made with ❤️ by <a target='_blank' href="http://linkedin.com/in/mohamed-halith-smh">Halith_SMH</a></p>
+                <h4>COPYRIGHT © ICON {year}</h4>
+                <p>Made with ❤️ by <a target='_blank' href="http://linkedin.com/in/">ICON DEVELOPERS</a></p>
             </div>
             <div className="social-links">
-            <i className='bx bxl-instagram'></i> <a target='_blank' href="https://www.instagram.com/petrona.act">Petrona.act</a>
+            <i className='bx bxl-instagram'></i> <a target='_blank' href="https://www.instagram.com/petrona.act">ICON</a>
             </div>
         </div>
     </div>
