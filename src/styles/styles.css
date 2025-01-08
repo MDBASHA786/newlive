@@ -790,6 +790,9 @@ input[type="file"] {
 }
 
 @media screen and (min-width: 200px) and (max-width: 650px) {
+  #root {
+    margin-left: 30%;
+  }
   .hero .logo-img img {
     width: 500px !important;
   }
@@ -862,16 +865,19 @@ input[type="file"] {
   }
   .grid-services1 {
     grid-template-columns: auto !important;
+    
   }
   .grid-services1 .card1 {
-    width: 105% !important;
+    width: 90% !important;
     margin: 28px 0;
+    position: relative;
+    right: 7%;
   }
   .grid-services2 {
     grid-template-columns: auto !important;
   }
   .grid-services2 .card2 {
-    width: 65% !important;
+    width: 68% !important;
     margin: 28px 0;
   }
   .grid-sponsers {
